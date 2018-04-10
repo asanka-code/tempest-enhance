@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#################################################
+#                                               #
+# This script uses hackrf_transfer command to   #
+# acquire I/Q data from HackRF and then uses an #
+# Octave script to filter unnecessary data.     #
+#                                               #
+#################################################
+
+
 # Tuning frequency
 #FREQ=345000000
 FREQ=343000000
